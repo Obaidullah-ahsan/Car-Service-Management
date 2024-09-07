@@ -1,4 +1,5 @@
 import React from 'react';
+import CustomButton from './CustomButton';
 
 const Hero = () => {
     return (
@@ -9,6 +10,10 @@ const Hero = () => {
             <p className="">
                 Streamline your car rental experience with your effortless booking process.
             </p>
+            <CustomButton
+                title="Explore Cars"
+                className='bg-red-300 p-2 rounded-2xl text-white'
+            />
         </div>
     );
 };
