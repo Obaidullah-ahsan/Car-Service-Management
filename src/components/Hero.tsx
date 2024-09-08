@@ -1,7 +1,7 @@
 import React from 'react';
 import CustomButton from './CustomButton';
 import Image from 'next/image';
-import { url } from 'inspector';
+
 
 const Hero = () => {
     return (
